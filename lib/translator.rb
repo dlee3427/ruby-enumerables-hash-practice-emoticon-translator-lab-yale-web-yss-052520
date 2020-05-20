@@ -23,6 +23,7 @@ end
 
 def get_english_meaning(file, emoticon)
   emoticons = load_library(file)
+  binding.pry
 end 
       
 
