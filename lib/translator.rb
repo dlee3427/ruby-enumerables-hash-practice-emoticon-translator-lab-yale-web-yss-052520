@@ -8,20 +8,7 @@ def load_library(file)
      "meaning" => {}
      "emoticon" => {}
      }
-     
-   emoticons.each do |key,value|
-      if new_hash[key] == nil 
-         new_hash[key] = {}
-      end
-      if new_hash[key][:english] == nil 
-         new_hash[key][:english] = value[0]
-      end
-      if new_hash[key][:japanese] == nil 
-         new_hash[key][:japanese] = value[1]
-      end
-   end
-   new_hash
-end
+    
 
 def get_english_meaning(file, emoticon)
   emoticons = load_library(file)
