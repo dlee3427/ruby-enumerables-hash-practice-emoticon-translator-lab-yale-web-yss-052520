@@ -8,7 +8,7 @@ def load_library(file)
       "definition" => {}
       "emoticon" => {}
    }
-   library.each do |key,value| 
+   emoticons.each do |key,value| 
       english = value[0]
       japanese = value[1]
       emoticon_translator["definition"][japanese] = definition 
