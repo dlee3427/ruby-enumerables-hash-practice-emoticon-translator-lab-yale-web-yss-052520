@@ -26,8 +26,9 @@ def get_english_meaning(file, emoticon)
     languages.each do |key, emoji|
       if emoticons[translation][:japanese] == emoticon
         return translation
+      else
+        return "Sorry, that emoticon was not found"
       end
-      return "Sorry, that emoticon was not found"
     end 
   end
 end 
