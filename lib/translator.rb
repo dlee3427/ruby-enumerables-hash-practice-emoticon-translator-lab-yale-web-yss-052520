@@ -4,10 +4,7 @@ require 'yaml'
 
 def load_library(file)
   emoticons = YAML.load_file(file)
-   emoticon_translator = {
-     "meaning" => {}
-     "emoticon" => {}
-     }
+   emoticon_translator = {}
    emoticons.each do |key,value|
       if emoticon_translator[key] == nil 
          emoticon_translator[key] = {}
