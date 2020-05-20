@@ -25,7 +25,7 @@ def get_english_meaning(file, emoticon)
   emoticons = load_library(file)
   emoticons.each do |translation, languages|
     languages.each do |key, emoji|
-      binding.pry
+      if emoticon ==  
     end 
   end
 end 
