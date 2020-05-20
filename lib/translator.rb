@@ -16,7 +16,7 @@ def load_library(file)
          emoticon_translator[key][:japanese] = value[1]
       end
    end
-   new_hash
+   emoticon_translator
 end
 
 
