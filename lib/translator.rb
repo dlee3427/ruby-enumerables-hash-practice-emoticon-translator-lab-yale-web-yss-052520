@@ -4,10 +4,7 @@ require 'yaml'
 
 def load_library(file)
    emoticons = YAML.load_file(file)
-   emoticon_translator = {
-      "definition" => {}
-      "emoticon" => {}
-   }
+   emoticon_translator = { "definition" => {}, "emoticon" => {} }
    emoticons.each do |key,value| 
       english = value[0]
       japanese = value[1]
