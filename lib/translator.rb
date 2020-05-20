@@ -38,6 +38,7 @@ def get_japanese_emoticon(file, emoticon)
   emoticons.each do |translation, languages|
     languages.each do |key, emoji| 
       if emoji == emoticon
+        binding.pry
         return translation[:japanese]
       end
     end
