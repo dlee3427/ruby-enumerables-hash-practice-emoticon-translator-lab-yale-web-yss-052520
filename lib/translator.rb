@@ -44,4 +44,3 @@ def get_japanese_emoticon(file, emoticon)
   end
   return "Sorry, that emoticon was not found"
 end
-end
