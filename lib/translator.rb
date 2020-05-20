@@ -8,7 +8,7 @@ def load_library(file)
      "meaning" => {}
      "emoticon" => {}
      }
-    
+    emoticons.each |
 
 def get_english_meaning(file, emoticon)
   emoticons = load_library(file)
